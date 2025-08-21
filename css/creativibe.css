@@ -1,0 +1,112 @@
+:root {
+  --primary-color: #f97316;
+  --secondary-color: #cf711f;
+  --color-dark: #000000;
+  --text-light: #ffffff;
+  --text-gray: #717070;
+  --color-green:#10B981;
+}
+
+body {
+  font-family: 'Pathway Gothic One', sans-serif;
+  /* background-color: var(--bg-body) !important; */
+  overflow-x: hidden;
+}
+.color-primary {
+  color: var(--primary-color);
+}
+.bg-color-primary {
+  background-color: var(--primary-color);
+}
+
+.color-gray {
+  color: var(--text-gray);
+}
+.color-green {
+  color: var(--color-green);
+}
+
+.btn-ui {
+  background-color: var(--primary-color);
+  color: var(--color-dark);
+}
+
+.btn-ui:hover {
+  background-color: var(--secondary-color) !important;
+  color: white;
+}
+
+.color-second-text {
+  color: var(--secondary-text-color);
+}
+
+.bg-second-orange {
+  color: var(--secondary-color);
+}
+
+.btn-secondary:hover {
+  background-color: var(--primary-btn-color) !important;
+  /* border: 4px solid var(--background-color) !important; */
+  border-color: var(--background-color);
+}
+/* //////////////////////////////////// */
+/* navigation */
+nav {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+  
+
+}
+
+.nav-link {
+  font-size: 1.25rem;
+  color: var(--text-light);
+}
+
+.nav-link:hover,
+.nav-link:active,
+.nav-link.active {
+  color: var(--primary-color) !important;
+}
+
+/* header */
+header {
+  min-height: calc(100vh - 63.3px);
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3)),
+    url('../image/header.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header-intro {
+  margin-top: 4rem !important;
+  max-width: 700px !important;
+  padding: 2rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.32));
+}
+
+/*  */
+
+.features {
+
+}
+
+.feature-box {
+  background: rgba(0, 0, 0, 0.15);   
+  border-radius: 10px;
+  backdrop-filter: blur(6px);       
+  transition: all 0.3s ease;
+}
+
+.feature-box:hover {
+  background: rgba(0, 0, 0, 0.12);
+  transform: translateY(-5px);
+}
+
+.image {
+  width: 100%;
+  height: 250px; 
+  object-fit: cover; 
+}
+
+
